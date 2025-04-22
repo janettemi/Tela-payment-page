@@ -14,7 +14,7 @@ function Input({
     return (
       <div>
         <label
-          className="block font-[700] text-[16px] leading-[140%] tracking-[0%] mb-1"
+          className="block font-[700] text-[16px] text-black leading-[140%] tracking-[0%] mb-1"
           style={{ fontFamily: "Public Sans" }}
         >
           {label}
@@ -23,7 +23,7 @@ function Input({
           type={type}
           placeholder={placeholder}
           onClick={onClick}
-          className={`w-full h-12 px-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-700 ${className}`}
+          className={`w-full h-12 text-black px-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-700 ${className}`}
         />
       </div>
     );
